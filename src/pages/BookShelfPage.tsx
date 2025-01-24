@@ -1,14 +1,16 @@
 import { BookshelfCard } from "../components/BookshelfCard"
 import './PageStyles.css'
 
-export const BookshelfPage = () => {
+export const BookShelfPage = () => {
     return (
-        <div className='BookshelfWrapper'>
+        <div className="BookShelfContainer">
             <h1>My Bookshelf</h1>
-            <BookshelfCard />
-            <BookshelfCard />
-            <BookshelfCard />
-            <BookshelfCard />
+            <div className='BookShelfWrapper'>
+                <BookshelfCard />
+                <BookshelfCard />
+                <BookshelfCard />
+                <BookshelfCard />
+            </div>
         </div>
     )
 }
