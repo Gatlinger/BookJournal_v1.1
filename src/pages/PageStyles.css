@@ -4,12 +4,18 @@
 
 .BookShelfWrapper {
   display: flex;
-  ;
   flex-wrap: wrap;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
   width: 100%;
+
+  :hover {
+    transform: scale( 1.05 );
+    background-color: rgb(176, 197, 197);
+    border: 1px solid black;
+    cursor: pointer;
+  }
 }
 
 .SearchPageWrapper {
