@@ -1,0 +1,29 @@
+.BookshelfWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .BookshelfWrapper div {
+    background-color: aquamarine;
+  }
+  
+  .BookshelfWrapper :first-child {
+    text-align: center;
+    background-color: gold;
+    width: 100%;
+  }
+
+  .SearchPageWrapper {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: deepskyblue;
+    border: 1px solid black;
+    
+  }
