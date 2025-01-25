@@ -16,12 +16,17 @@
   box-sizing: border-box;
   width: 100%;
 
-  :hover {
-    transform: scale( 1.05 );
-    background-color: rgb(176, 197, 197);
-    border: 1px solid black;
-    cursor: pointer;
+  * {
+    transition: transform 0.3s;
   }
+
+  :hover {
+    * {
+        transform: scale(1.05);
+        transition: transform 0.3s;
+        cursor: pointer;
+    }
+}
 }
 
 .SearchPageWrapper {
