@@ -11,6 +11,7 @@ function App() {
       <ToolBar />
       <Routes>
         <Route path='/' element={<BookShelfPage />} />
+        <Route path='/*' element={<BookShelfPage />} />
         <Route path='/search' element={<SearchPage />} />
       </Routes>
       <InfoBar />
