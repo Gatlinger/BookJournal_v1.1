@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/BookJournal_v1.1/static/css/main.3269a54e.css",
-    "main.js": "/BookJournal_v1.1/static/js/main.86d3a2d0.js",
+    "main.css": "/BookJournal_v1.1/static/css/main.33c863c8.css",
+    "main.js": "/BookJournal_v1.1/static/js/main.772b1257.js",
     "static/js/453.ed3810f9.chunk.js": "/BookJournal_v1.1/static/js/453.ed3810f9.chunk.js",
     "static/media/35.webp": "/BookJournal_v1.1/static/media/35.d344f156cbf097b2e653.webp",
     "index.html": "/BookJournal_v1.1/index.html",
-    "main.3269a54e.css.map": "/BookJournal_v1.1/static/css/main.3269a54e.css.map",
-    "main.86d3a2d0.js.map": "/BookJournal_v1.1/static/js/main.86d3a2d0.js.map",
+    "main.33c863c8.css.map": "/BookJournal_v1.1/static/css/main.33c863c8.css.map",
+    "main.772b1257.js.map": "/BookJournal_v1.1/static/js/main.772b1257.js.map",
     "453.ed3810f9.chunk.js.map": "/BookJournal_v1.1/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3269a54e.css",
-    "static/js/main.86d3a2d0.js"
+    "static/css/main.33c863c8.css",
+    "static/js/main.772b1257.js"
   ]
 }
