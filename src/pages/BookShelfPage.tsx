@@ -4,7 +4,7 @@ import './PageStyles.css'
 export const BookShelfPage = () => {
     return (
         <>
-            <h1>My Bookshelf</h1>
+            <h1>My BookShelf</h1>
             <div className="BookShelfContainer">
                 <div className='BookShelfWrapper'>
                     <BookshelfCard />
