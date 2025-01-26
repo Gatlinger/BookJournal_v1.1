@@ -9,9 +9,39 @@
         position: absolute;
         width: 80px;
         height: 80px;
-        background-color: rgb(251, 255, 0);
+        background-color: rgb(245, 232, 59);
         border-radius: 70px 0px 300px 0px;
         z-index: 1;
+    }
+    
+    ::after {
+        content: "К КНИГЕ";
+        font-size: 2rem;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+        align-content: center;
+        display: block;
+        position: absolute;
+        width: 200px;
+        height: 80px;
+        top: 70%;
+        left: 20%;
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(50%);
+        transition: transform 0.3s ease, opacity 0.3s ease, visibility 0.3s ease;
+        background-color: rgb(95, 123, 185);
+        box-shadow: 1px 1px 2px black;
+        border-radius: 15px;
+        color: white;
+        z-index: 1;
+    }
+
+    :hover::after {
+        display: block;
+        transform: translateY(0%);
+        opacity: 1;
+        visibility: visible;
     }
 }
 
@@ -22,7 +52,7 @@
     height: 400px;
     box-shadow: 2px 2px 4px rgba(0, 0, 0);
     border-radius: 20px;
-    background-image: url('../../public/BookPic.jpg');
+    background-image: url('../../public/35.webp');
     background-size: cover;
 }
 
