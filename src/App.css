@@ -1,15 +1,42 @@
-
 .App {
   background-color: rgb(245, 228, 228);
   margin: 0px;
   padding: 0px;
-  width: 50% ;
+  width: 50%;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   justify-self: center;
+
+  * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+  * ::after {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+  * ::before {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
 }
 
+@media screen and (max-width: 768px) {
+  .App{
+    width: 100%;
+  }
+}
 
+@media screen and (orientation: landscape) and (max-height: 768px) {
+  .App{
+    width: 100%;
+  }
+}

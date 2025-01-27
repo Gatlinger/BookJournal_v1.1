@@ -1,6 +1,7 @@
 import './PageStyles.css'
 
 export const SearchPage = () => {
+
     return (
         <div className='SearchPageWrapper'>
             <h1>Search Page</h1>

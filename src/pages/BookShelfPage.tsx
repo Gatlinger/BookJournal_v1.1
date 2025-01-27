@@ -1,16 +1,19 @@
-import { BookshelfCard } from "../components/BookshelfCard"
+import { useSelector } from "react-redux"
 import './PageStyles.css'
+import { RootState } from "../store/store"
+import { BooksInShelfType } from "../store/BooksInShelfReducere"
+import { BookShelfCard } from "../components/BookshelfCard"
 
 export const BookShelfPage = () => {
+    const books = useSelector<RootState, BooksInShelfType[]>(state => state.booksInShelf)
+
+
     return (
         <>
-            <h1>My BookShelf</h1>
+            <h1>МОИ КНИГИ</h1>
             <div className="BookShelfContainer">
                 <div className='BookShelfWrapper'>
-                    <BookshelfCard />
-                    <BookshelfCard />
-                    <BookshelfCard />
-                    <BookshelfCard />
+                    {books.map((book => <BookShelfCard book={book}/>))}
                 </div>
             </div>
         </>
