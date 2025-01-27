@@ -102,3 +102,26 @@
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+.ProgressBar {
+    width: 300px;
+    height: 20px;
+    position: relative;
+    background-color: #d8d8d8;
+    border-radius: 0px 0px 20px 20px;
+    z-index: 0;
+    margin-right: 30px;
+    margin-left: 30px;
+    bottom: 50px;
+    z-index: 3;
+}
+
+.ProgressBarInner {
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: #32a64f;
+    height: 20px;
+    border-radius: 0px 0px 20px 20px;
+    padding-right: 30px;
+}
